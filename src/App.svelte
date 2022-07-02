@@ -12,10 +12,14 @@
 
 <Image />
 
-<Paragraph />
-
 <RenderHTML />
 
 <Increment />
 
 <Sum />
+
+<h1>Props in Svelte</h1>
+
+<Paragraph title="My paragraph" />
+<!-- Without props -->
+<Paragraph />
