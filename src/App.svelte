@@ -4,6 +4,7 @@
   import RenderHTML from './lib/RenderHTML.svelte';
   import Increment from './lib/Increment.svelte';
   import Sum from './lib/Sum.svelte';
+  import Logic from './lib/Logic.svelte';
 
   let name = 'Andres';
 </script>
@@ -23,3 +24,7 @@
 <Paragraph title="My paragraph" />
 <!-- Without props -->
 <Paragraph />
+
+<h1>Logic in Svelte</h1>
+
+<Logic />
