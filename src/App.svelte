@@ -3,6 +3,7 @@
   import Image from './lib/Image.svelte';
   import RenderHTML from './lib/RenderHTML.svelte';
   import Increment from './lib/Increment.svelte';
+  import Sum from './lib/Sum.svelte';
 
   let name = 'Andres';
 </script>
@@ -16,3 +17,5 @@
 <RenderHTML />
 
 <Increment />
+
+<Sum />
