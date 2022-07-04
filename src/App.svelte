@@ -10,6 +10,10 @@
   import EventModifiers from './lib/events/EventModifiers.svelte';
 
   let name = 'Andres';
+
+  function handleMessage(event) {
+    alert(event.detail.text);
+  }
 </script>
 
 <h1>Hello {name.toUpperCase()}</h1>
@@ -36,4 +40,4 @@
 
 <DomEvents />
 <InlineHandlers />
-<EventModifiers />
+<EventModifiers on:text={handleMessage} />
