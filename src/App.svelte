@@ -5,6 +5,7 @@
   import Increment from './lib/Increment.svelte';
   import Sum from './lib/Sum.svelte';
   import Logic from './lib/Logic.svelte';
+  import DomEvents from './lib/events/DOMEvents.svelte';
 
   let name = 'Andres';
 </script>
@@ -28,3 +29,7 @@
 <h1>Logic in Svelte</h1>
 
 <Logic />
+
+<h1>Events in Svelte</h1>
+
+<DomEvents />
