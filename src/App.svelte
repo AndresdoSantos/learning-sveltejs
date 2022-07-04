@@ -6,6 +6,8 @@
   import Sum from './lib/Sum.svelte';
   import Logic from './lib/Logic.svelte';
   import DomEvents from './lib/events/DOMEvents.svelte';
+  import InlineHandlers from './lib/events/InlineHandlers.svelte';
+  import EventModifiers from './lib/events/EventModifiers.svelte';
 
   let name = 'Andres';
 </script>
@@ -33,3 +35,5 @@
 <h1>Events in Svelte</h1>
 
 <DomEvents />
+<InlineHandlers />
+<EventModifiers />
